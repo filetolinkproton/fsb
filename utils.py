@@ -12,7 +12,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
     url = f'https://tnlink.in/api'
-    params = {'api': '75da926e3f248de287cb0a770ea77048012fa926',
+    params = {'api': '63d2f2708e0cb0a9904185e967f224807337af6e',
               'url': link,
               }
 
